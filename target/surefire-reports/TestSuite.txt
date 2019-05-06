@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.924 s <<< FAILURE! - in TestSuite
+testValidLogin(scripts.TestValidLogin)  Time elapsed: 11.02 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "I dont know". Current title: "actiTIME - Enter Time-Track" (tried for 8 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AJITH-PC', ip: '192.168.43.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3852, moz:profile: C:\Users\Ajith\AppData\Loca..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8ac30117-5035-4574-a6ff-2b326b24eb04
+	at scripts.TestValidLogin.testValidLogin(TestValidLogin.java:27)
+
